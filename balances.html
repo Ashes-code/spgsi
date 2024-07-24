@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Balances</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="aside" >
+                <div class="row ps-5 pt-4">
+                    <div class="col-12">
+                        <a href="#"><img src="images/logo.png" alt="" id="logo"></a>
+                    </div>
+                </div>
+                <div class="row" id="overview-row">
+                    <div class="col-12" style="position: relative;">
+                        <a href="index.html" id="over">
+                            <img src="images/overview-icon.png" alt="" id="overview-icon">Overview
+                            <p id="blue-side"></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="balances-row">
+                    <div class="col-12 mt-1">
+                        <a href="balances.html" id="balances">
+                            <img src="images/balances-icon.png" alt="" id="wallet-icon">Balances
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="collections-row">
+                    <div class="col-12">
+                        <a href="#" id="collections">
+                            <img src="images/collections-icon.png" alt="" id="collections-icon">Collections
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="payouts-row">
+                    <div class="col-12">
+                        <a href="#" id="payouts">
+                            <img src="images/payout-icon.png" alt="" id="payout-icon">Payouts
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="customers-row">
+                    <div class="col-12">
+                        <a href="#" id="customers">
+                            <img src="images/customer-icon.png" alt="" id="customers-icon">Customers
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="settlements-row">
+                    <div class="col-12">
+                        <a href="#" id="settlements">
+                            <img src="images/settlement-icon.png" alt="" id="settlement-icon">Settlements
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="conversion-row">
+                    <div class="col-12">
+                        <a href="#" id="conversion">
+                            <img src="images/conversion-icon.png" alt="" id="conversion-icon">Conversion
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="settings-row">
+                    <div class="col-12">
+                        <a href="#" id="settings">
+                            <img src="images/settings-icon.png" alt="" id="settings-icon">Settings
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-2">
+                <header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-end" style="height: 25px;">
+                                <img src="images/toggle.png" alt="" id="toggle">
+                                <label for="input" id="live">Live</label>
+                                <img src="images/bell-icon.png" alt="" id="bell">
+                                <div id="profile-div">
+                                    <button type="button" id="profile-btn">S</button>
+                                    <a href="" style="text-decoration: none; color: black;"><p id="profile-text">Santex Enterprise</p></a>
+                                    <a href="" style="text-decoration: none; color: black;"><p id="profile-id">Merchant ID: 333455677</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex" id="header-div">
+                               <a href=""><h4 id="active">Balances</h4></a>
+                               <a href="" style="color: black;" id="last-child"><h4>Balances history</h4></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">                                
+                            <button type="submit" id="wallet-btn">Create Wallet</button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section>
+                    <div class="contaner-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="bg-ngn">
+                                    <h2 id="ngn-bal">NGN Balance</h2> <hr>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3 id="no-0">N0.00</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <button type="submit" id="fund-button-2">Fund Balance<img src="images/wallet-icon.png" alt="" id="icon"></button>
+                                            <button type="submit" id="set-button">Set Low Limit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="bg-usd">
+                                    <h2 id="usd-bal">USD Balance</h2> <hr>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3 id="no-0">N0.00</>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button type="submit" id="fund-button-2">Fund Balance<img src="images/wallet-icon.png" alt="" id="icon"></button>
+                                                <button type="submit" id="set-button">Set Low Limit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                        
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

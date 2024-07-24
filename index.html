@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Overview</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/wallet-icon.png">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="aside">
+                <div class="row ps-5 pt-4">
+                    <div class="col-12">
+                        <a href="#"><img src="images/logo.png" alt="" id="logo"></a>
+                    </div>
+                </div>
+                <div class="row" id="overview-row">
+                    <div class="col-12" style="position: relative;">
+                        <a href="index.html" id="over">
+                            <img src="images/overview-icon.png" alt="" id="overview-icon">Overview
+                            <p id="blue-side"></p>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="balances-row">
+                    <div class="col-12 mt-1">
+                        <a href="balances.html" id="balances">
+                            <img src="images/balances-icon.png" alt="" id="wallet-icon">Balances
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="collections-row">
+                    <div class="col-12">
+                        <a href="#" id="collections">
+                            <img src="images/collections-icon.png" alt="" id="collections-icon">Collections
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="payouts-row">
+                    <div class="col-12">
+                        <a href="#" id="payouts">
+                            <img src="images/payout-icon.png" alt="" id="payout-icon">Payouts
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="customers-row">
+                    <div class="col-12">
+                        <a href="#" id="customers">
+                            <img src="images/customer-icon.png" alt="" id="customers-icon">Customers
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="settlements-row">
+                    <div class="col-12">
+                        <a href="#" id="settlements">
+                            <img src="images/settlement-icon.png" alt="" id="settlement-icon">Settlements
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="conversion-row">
+                    <div class="col-12">
+                        <a href="#" id="conversion">
+                            <img src="images/conversion-icon.png" alt="" id="conversion-icon">Conversion
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="settings-row">
+                    <div class="col-12">
+                        <a href="#" id="settings">
+                            <img src="images/settings-icon.png" alt="" id="settings-icon">Settings
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <header class="container-fluid px-4">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-end" style="height: 25px;">
+                            <img src="images/toggle.png" alt="" id="toggle">
+                            <label for="input" id="live">Live</label>
+                            <img src="images/bell-icon.png" alt="" id="bell">
+                            <div id="profile-div">
+                                <button type="button" id="profile-btn">S</button>
+                                <a href="" style="text-decoration: none; color: black;"><p id="profile-text">Santex Enterprise</p></a>
+                                <a href="" style="text-decoration: none; color: black;"><p id="profile-id">Merchant ID: 333455677</p></a>
+                            </div>
+                        </div>  
+                        <div class="col-12">
+                            <h3 style="color: rgb(38, 81, 146); font-family: sans-serif; font-weight: 600; margin-top: 20px;">Hi Akachukwu</h3>
+                            <p>Here's an overview of your account</p>
+                        </div>
+                    </div>
+                </header>
+                <nav>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-8">
+                                <div id="background">
+                                    <div class="row">
+                                        <div class="col-9">
+                                            <h5 id="head-text">Available balance</h5>
+                                        </div>
+                                        <div class="col-3" id="ngn">                                               
+                                            <select name="select">
+                                                <option value="NGA">NGA</option>
+                                                <option value="CAM">CAM</option>
+                                                <option value="TUN">TUN</option>
+                                                <option value="UGA">UGA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h1 id="amount">N0.00</h1>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <button type="submit" id="fund-button">Fund Balance<img src="images/wallet-icon.png" alt="" id="icon"></button>
+                                            <button type="submit" id="make-button">Make Payout<img src="images/payout-white.png" alt="" id="icon"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="images/card-1.png" alt="" id="card-1">
+                                    <img src="images/card-2.png" alt="" id="card-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <div id="background-2">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h5 id="transaction">Transaction Summary</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <img src="images/pie.png" alt="" id="pie">
+                                        </div>
+                                        <div class="col-5">
+                                            <p id="payin">Payin <input type="button" value="" id="pay-in-btn"></p>
+                                            <p id="payout">Payout <input type="button" value="" id="pay-out-btn"></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p id="total-1">Total Transaction Volume</p>
+                                            <p id="no-1">285</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p id="total-2">Total Transaction Amount</p>
+                                            <p id="no-2">2,600,000</p>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="col-6"> 
+                                <div id="bg-conversion">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <p id="conversion-p">Conversion Graph</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <select name="" id="select-conversion-1">
+                                                <option value="USD-NGN">USD-NGN</option>
+                                                <option value="GHA-NGN">GHA-NGN</option>
+                                                <option value="CAM-NGN">CAM-NGN</option>
+                                            </select>
+                                            <select name="" id="select-conversion-2">
+                                                <option value="Last 7 Days">Last 7 Days</option>
+                                                <option value="Last 4 Weeks">Last 4 Weeks</option>
+                                                <option value="Last 12 Months">Last 12 Months</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div id="graph-div">
+                                                <p id="graph-li">1400</p><hr id="hr">
+                                                <p id="graph-li">1200</p><hr id="hr">
+                                                <p id="graph-li">1000</p><hr id="hr">
+                                                <p id="graph-li">800</p><hr id="hr">
+                                                <p id="graph-li">600</p><hr id="hr">
+                                                <p id="graph-li">400</p><hr id="hr">
+                                                <p id="graph-li">200</p><hr id="hr">
+                                                <p id="graph-li">0</p><hr id="hr">
+                                                <img src="images/graph-line-1.png" alt="" id="graph-line">
+                                                <img src="images/graph-dot.png" alt="" id="graph-dot">
+                                               <img src="images/graph-line-2.png" alt="" id="graph-line-2">
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="row"> 
+                                        <div class="col">
+                                            <ul class="" id="day-li">
+                                                <li>Mon</li>
+                                                <li>Tues</li>
+                                                <li>Wed</li>
+                                                <li>Thur</li>
+                                                <li>Fri</li>
+                                                <li>Sat</li>
+                                                <li>Sun</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container-fluid" style="background-color: rgb(244, 244, 244);">
+                        <div class="row">
+                            <div class="col">
+                                <div id="bg-payin">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <p id="payin-p">Payin</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <select name="" id="select-payin-1">
+                                                <option value="USD-NGN">NGN</option>
+                                                <option value="GHA-NGN">GHA</option>
+                                                <option value="CAM-NGN">CAM</option>
+                                            </select>
+                                            <select name="" id="select-payin-2">
+                                                <option value="Last 7 Days">Last 7 Days</option>
+                                                <option value="Last 4 Weeks">Last 4 Weeks</option>
+                                                <option value="Last 12 Months">Last 12 Months</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="position: relative;">
+                                            <div id="graph-div">
+                                                <p id="payin-li">700</p><hr id="payin-hr">
+                                                <p id="payin-li">600</p><hr id="payin-hr">
+                                                <p id="payin-li">500</p><hr id="payin-hr">
+                                                <p id="payin-li">400</p><hr id="payin-hr">
+                                                <p id="payin-li">300</p><hr id="payin-hr">
+                                                <p id="payin-li">200</p><hr id="payin-hr">
+                                                <p id="payin-li">100</p><hr id="payin-hr">
+                                                <p id="payin-li">0</p><hr id="payin-hr">
+                                            </div>
+                                           <div class="p-graph" style="position: relative;">
+                                            <p id="p-1"></p>
+                                            <p id="p-2"></p>
+                                            <p id="p-3"></p>
+                                            <p id="p-4"></p>
+                                            <p id="p-5"></p>
+                                            <p id="p-6"></p>
+                                            <p id="p-7"></p>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div id="bg-payout">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <p id="payout-p">Payout</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <select name="" id="select-payout-1">
+                                                <option value="USD-NGN">NGN</option>
+                                                <option value="GHA-NGN">GHA</option>
+                                                <option value="CAM-NGN">CAM</option>
+                                            </select>
+                                            <select name="" id="select-payout-2">
+                                                <option value="Last 7 Days">Last 7 Days</option>
+                                                <option value="Last 4 Weeks">Last 4 Weeks</option>
+                                                <option value="Last 12 Months">Last 12 Months</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col" style="position: relative;">
+                                            <div id="graph-div">
+                                                <p id="payout-li">700</p><hr id="payout-hr">
+                                                <p id="payout-li">600</p><hr id="payout-hr">
+                                                <p id="payout-li">500</p><hr id="payout-hr">
+                                                <p id="payout-li">400</p><hr id="payout-hr">
+                                                <p id="payout-li">300</p><hr id="payout-hr">
+                                                <p id="payout-li">200</p><hr id="payout-hr">
+                                                <p id="payout-li">100</p><hr id="payout-hr">
+                                                <p id="payout-li">0</p><hr id="payout-hr">
+                                            </div>
+                                           <div class="p-graph" style="position: relative;">
+                                            <p id="p-o-1"></p>
+                                            <p id="p-o-2"></p>
+                                            <p id="p-o-3"></p>
+                                            <p id="p-o-4"></p>
+                                            <p id="p-o-5"></p>
+                                            <p id="p-o-6"></p>
+                                            <p id="p-o-7"></p>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+            </div>
+        </div>
+    </body>
+</html>

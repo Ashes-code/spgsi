@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;   
+    overflow-x: hidden;
+}
+
+.aside{
+    width: 25%;
+    background-color: rgba(255, 255, 255, 1);
+    height: 100vh;
+    border-radius: 40px;
+    position: fixed;
+}
+#logo{
+    height: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#logo:hover{
+    box-shadow: 3px 3px 4px 3px rgb(30, 214, 205);
+    transform: translateY(4px);
+}
+#overview-row{
+    width: 90%;
+    height: 8%;
+    background-color: rgb(243, 243, 243, 1);
+    align-items: center;
+    box-shadow: 3px 3px rgb(235, 233, 233);
+}
+#over{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+    display: flex;
+    padding-top: 8px;
+}
+#overview-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: 12px;
+}
+#over:hover{
+    transition: 1s;
+    padding-left: 50px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#overview-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+#blue-side{
+    background-color: rgb(38, 81, 146); 
+    height: 54px; 
+    width: 15px; 
+    position: absolute; 
+    left: 305px; 
+    top: -2px; 
+    border-radius: 34px; 
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+}
+
+#balances-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#balances{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#wallet-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#balances:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#balances-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+#collections-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#collections{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#collections-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#collections:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#collections-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+#payouts-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#payouts{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#payout-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+
+#payouts:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#payouts-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+#customers-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#customers{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#customers-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#customers:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#customers-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+
+#settlements-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#settlements{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#settlement-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#settlements:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#settlements-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+#conversion-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#conversion{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#conversion-icon{
+    height: 15px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#conversion:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#conversion-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+#settings-row{
+    width: 90%;
+    height: 8%;
+    align-items: center;
+}
+#settings{
+    text-decoration: none;
+    width: 75%;
+    height: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    padding-left: 35px;
+}
+#settings-icon{
+    height: 20px;
+    padding: 0 10px;
+    margin-top: -5px;
+}
+#settings:hover{
+    transition: 2s;
+    padding-top: 5px;
+    text-shadow: 3px 3px 4px rgb(30, 214, 205);
+}
+#settings-row:hover{
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+.main{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    left: 25%;
+}
+
+#toggle{
+    margin-top: 28px;
+    height: 30px;
+}
+#live{
+    color: rgb(0, 148, 148);
+    margin-top: 28px;
+}
+#live{
+    text-shadow: 2px 3px 3px black;
+}
+#bell{
+    padding: 0 15px;
+    margin-top: 28px;
+    height: 30px;
+}
+#profile-div{
+    background-color: rgb(255, 255, 255);
+    height: 200%;
+    border-radius: 30px;
+    width: 30%;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+#profile-btn{
+    height: 80%;
+    border-radius: 50%;
+    width: 15%;
+    margin: 5px 5px 2px 5px;
+    background-color: rgb(206, 239, 253);
+    border: none;
+    outline: none;
+    color: rgb(0, 148, 148);
+    font-size: 20px;
+    font-weight: 645;
+    padding: 5px;
+    font-family: sans;
+}
+#profile-text{
+    width: 80%;
+    margin-left: 60px;
+    margin-top: -40px;
+    font-weight: 600; 
+}
+#profile-id{
+    font-size: 10px;
+    margin-left: 60px;
+    margin-top: -20px;
+    font-weight: 400;
+}
+
+#background{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 55%;
+}
+#head-text{
+    margin-left: 20px; 
+    margin-top: 10px;
+    color: rgb(123, 123, 123); 
+}
+#ngn{
+    margin-top: 10px;
+}
+select{
+    position: relative;
+    left: 60px;
+    outline: none;
+}
+#caret{
+    position: relative;
+    left: 70%;
+    bottom: 30px;
+    height: 10px;
+    margin-top: 5px;
+}
+#amount{
+    margin-left: 20px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#fund-button{
+    margin-left: 20px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgb(0, 148, 148);
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    
+}
+#make-button{
+    margin-left: 5px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgb(38, 81, 147);
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+}
+#icon{
+    height: 20px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+#card-1{
+    width: 100%;
+}
+#card-1:hover{
+    transform: translateY(-20px);
+}
+#card-2{
+    width: 100%;
+    position: relative;
+    bottom: 132px;
+    width: 93%;
+    left: 10px;
+}
+#card-2:hover{
+    transform: translateX(10px);
+}
+
+#background-2{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: -90px;
+}
+#transaction{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#pie{
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#pie:hover{
+    transform: translateY(-5px);
+}
+#payin{
+    margin-left: -50px;
+    margin-top: 60px;
+}
+#pay-in-btn{
+    border-radius: 50%;
+    background-color: rgb(0, 113, 113);
+    outline: none;
+    border: none;
+    width: 7%;
+    height: 16px;
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+#payout{
+    margin-left: -50px;
+}
+#pay-out-btn{
+    border-radius: 50%;
+    width: 7%;
+    height: 16px;
+    background-color: rgb(37, 79, 144);
+    outline: none;
+    border: none;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+#total-1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#no-1{
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -10px;
+}
+#total-2{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#no-2{
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+#bg-conversion{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: -90px;
+    height: 90%;
+}
+#conversion-p{
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#select-conversion-1{
+    margin-left: -30px;
+    margin-top: 30px;
+    width: 36%; 
+}
+#select-conversion-2{
+    width: 39%;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+#graph-div{
+    margin-left: 20px;
+    margin-bottom: 150px;
+    position: relative;
+}
+#graph-li{
+    display: flex;
+    height: 1px;
+    margin-bottom: -9px;
+    padding: 0;
+    font-weight: 700;
+}
+#graph-li:hover{
+    transform: translateY(-5px);
+}
+#hr{
+    margin-left: 55px;
+    width: 75%;
+    color: teal;
+}
+#hr:hover{
+    transform: translateY(-10px);
+}
+#day-li{
+    margin-top: -130px;
+    display: flex;
+    margin-left: 40px;
+    list-style-type: none;
+}
+#day-li li{
+    padding-right: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+#graph-line{
+    height: 85px;
+    position: absolute;
+    top: 48px;
+    left: 70px;
+}
+#graph-line:hover{
+    transform: translateY(5px);
+}
+#graph-line-2{
+    height: 120px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}
+#graph-dot{
+    height: 10px;
+    position: absolute;
+    top: 27px;
+    right: 120px;
+}
+#graph-dot:hover{
+    transform: translateY(1px);
+}
+#bg-payin{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+    height: 88%;
+}
+#payin-p{
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 23px;
+    color: rgb(0, 148, 148);
+}
+#payin-p:hover{
+    text-shadow: 3px 3px 4px lime;
+}
+#select-payin-1{
+    margin-left: -10px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+#select-payin-2{
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    width: 40%;
+}
+#payin-li{
+    display: flex;
+    height: 20px;
+    margin-bottom: -12px;
+    padding: 0;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#payin-li:hover{
+    transform: translateY(-5px);
+}
+#payin-hr{
+    margin-left: 55px;
+    width: 79%;
+    margin-top: 6px;
+    color: teal;
+}
+#p-1{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 105px;
+    position: absolute;
+    bottom: 135px;
+    left: 76px;
+}
+#p-2{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 245px;
+    position: absolute;
+    bottom: 135px;
+    left: 131px;
+}
+#p-3{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 145px;
+    position: absolute;
+    bottom: 135px;
+    left: 186px;
+}
+ #p-4{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 210px;
+    position: absolute;
+    bottom: 135px;
+    left: 238.5px;
+}
+#p-5{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 155px;
+    position: absolute;
+    bottom: 135px;
+    left: 295px;
+}
+#p-6{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 175px;
+    position: absolute;
+    bottom: 135px;
+    left: 350px;
+}
+#p-7{
+    background-color: rgb(0, 148, 148);
+    width: 35px;
+    height: 165px;
+    position: absolute;
+    bottom: 135px;
+    left: 405px;
+} 
+
+#bg-payout{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+    height: 88%;
+}
+#payout-p{
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 23px;
+    color: rgb(38, 81, 147);
+}
+#payout-p:hover{
+    text-shadow: 3px 3px 4px violet;
+}
+#select-payout-1{
+    margin-left: -10px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+#select-payout-2{
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding-left: 3px;
+    width: 40%;
+}
+#payout-li{
+    display: flex;
+    height: 20px;
+    margin-bottom: -12px;
+    padding: 0;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#payout-li:hover{
+    transform: translateY(-5px);
+}
+#payout-hr{
+    margin-left: 55px;
+    width: 79%;
+    margin-top: 6px;
+    color: teal;
+}
+#p-o-1{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 105px;
+    position: absolute;
+    bottom: 135px;
+    left: 76px;
+}
+#p-o-2{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 245px;
+    position: absolute;
+    bottom: 135px;
+    left: 131px;
+}
+#p-o-3{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 145px;
+    position: absolute;
+    bottom: 135px;
+    left: 186px;
+}
+ #p-o-4{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 210px;
+    position: absolute;
+    bottom: 135px;
+    left: 238.5px;
+}
+#p-o-5{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 155px;
+    position: absolute;
+    bottom: 135px;
+    left: 295px;
+}
+#p-o-6{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 175px;
+    position: absolute;
+    bottom: 135px;
+    left: 350px;
+}
+#p-o-7{
+    background-color: rgb(38, 81, 147);
+    width: 35px;
+    height: 165px;
+    position: absolute;
+    bottom: 135px;
+    left: 405px;
+} 
+
+
+         /* BALANCES TAB */
+.main-2{
+    width: 75%;
+    height: 100vh;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    left: 25%;
+}
+#header-div a{
+    text-decoration: none;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#active{
+    color: rgb(38, 81, 146);
+}
+#active:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#last-child :hover{
+    color: blue;
+}
+#wallet-btn{
+    margin-left: 20px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(37, 79, 144);
+    width: 20%;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+
+.bg-ngn{
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-radius: 8px;
+    height: 90%;
+    margin-top: 50px;
+    width: 90%;
+}
+#ngn-bal{
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+hr{
+    width: 87%;
+    margin-left: 30px;
+}
+#no-0{
+    margin-left: 30px;
+    color: rgb(63, 62, 62);
+    padding: 0 0 30px 0;
+}
+.bg-usd{
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    border-radius: 8px;
+    height: 90%;
+    margin-top: 50px;
+    width: 90%;
+}
+#usd-bal{
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+hr{
+    width: 87%;
+    margin-left: 30px;
+}
+#no-0{
+    margin-left: 30px;
+    color: rgb(63, 62, 62);
+    padding: 0 0 30px 0;
+}
+
+#fund-button-2{
+    margin-left: 20px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: rgb(0, 148, 148);
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#set-button{
+    margin-left: 5px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    color: rgb(37, 79, 144);
+    border: 2px solid rgb(37, 79, 144);
+    outline: none;
+}
