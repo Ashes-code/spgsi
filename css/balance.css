@@ -1,0 +1,125 @@
+.main-2{
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    left: 20%;
+}
+#overview-row{
+    box-shadow: none;
+    background-color: transparent;
+}
+#balances-row{
+    width: 90%;
+    height: 8%;
+    background-color: rgb(243, 243, 243, 1);
+    align-items: center;
+    box-shadow: 3px 3px rgb(235, 233, 233);
+}
+#blue-side{
+    background-color: rgb(38, 81, 146); 
+    height: 54px; 
+    width: 15px; 
+    position: absolute; 
+    left: 242px; 
+    top: -12px; 
+    border-radius: 34px; 
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+}
+#header-div a{
+    text-decoration: none;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#active{
+    color: rgb(38, 81, 146);
+}
+#active:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#last-child :hover{
+    color: blue;
+}
+#wallet-btn{
+    margin-left: 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(37, 79, 144);
+    width: 20%;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+}
+
+.bg-ngn{
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-radius: 8px;
+    height: 80%;
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px 0;
+}
+#ngn-bal{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+hr{
+    width: 87%;
+    margin-left: 30px;
+}
+#no-0{
+    margin-left: 30px;
+    color: rgb(63, 62, 62);
+    padding: 0 0 20px 0;
+}
+.bg-usd{
+    background-color: rgb(255, 255, 255);
+    margin-left: -60px;
+    border-radius: 8px;
+    height: 80%;
+    margin-top: 50px;
+    width: 80%;
+    padding: 20px 0;
+}
+#usd-bal{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+hr{
+    width: 87%;
+    margin-left: 30px;
+}
+#no-0{
+    margin-left: 30px;
+    color: rgb(63, 62, 62);
+    padding: 0 0 10px 0;
+}
+
+#fund-button-2{
+    margin-left: 20px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: rgb(0, 148, 148);
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+#set-button{
+    margin-left: 5px;
+    width: 35%;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    color: rgb(37, 79, 144);
+    border: 2px solid rgb(37, 79, 144);
+    outline: none;
+    margin-top: 10px;
+}
